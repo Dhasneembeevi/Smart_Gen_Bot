@@ -1,0 +1,41 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore environment variables
+.env
+__pycache__/
+*.pyc
+
+
+# Ignore data folder (optional)
+data/
+
+# Ignore models (optional)
+models/
+
+# Ignore dynamic/static generated files
+static/uploads/
+static/generated/
+static/
+
+# Ignore IDE/editor config files
+*.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore large files tracked with Git LFS (optional)
+*.h5
+*.pkl
